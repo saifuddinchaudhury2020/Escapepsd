@@ -1,204 +1,262 @@
-/*Extra small devices (portrait phones, less than 576px)*/
+/* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-
-
-
-
-
-
-/*header part responsive design start */
-.header {
-	text-align: center;
-}
-
-
-#banner_part {
-	
-	display: none;
-}
-
-/*service hasbeen start */	
-
-#service_part {
-	padding: 25px 0px;
-
-}
-
-
-.service_text p {
-	font-size: 13px;
-	padding: 1px 66px;
-	
-}
-.service_text h2 {
-	font-size: 22px;	
-	padding: 10px;
-	
-}
-
-
-.service_product {
-	padding-bottom: 30px;
-}
-.image_descrive p {
-	font-size: 15px;
-	padding-top: 20px;
-	text-align: justify;
-}
-
-
-.service_image {
-position: absolute;
-left:80%;
-font-size: 15px;
-}
-.image_descrive p {
-font-size: 15px;
-
-padding-top: 30px;
-
-text-align: justify;
-}
-
-
-
-
-
-
-
-
-
-
-/*small design end */
-
-}
-
-
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { 
-	/*header part responsive design start */
-	.header {
-        text-align: center;
-    }
-
-	
-	.banner_part {
-		text-align: center;
-	}
-	
-	
-	.banner_text ul li a{
-
-		font-size: 17px !important;
-
-	}
-	
-	.banner_text h2 {
+	.menu{
+		text-align: right;
+		margin-top: 32px;
 		
-		font-size: 19px;
+		}
+		.menu ul li {
+			padding: 5px;
+		}
 		
-	}
-
-
-
-
-	.banner_text p {
+		/*header part design start */
+		#header_part{
 		
-		font-size: 14px;
+			height: 45vh;
+			
+		}
+		.banner_text h2 {
+			
+			font-size: 50px;
+			
+		}
 		
-	}
-	.banner_text h5 {
-	
-		font-size: 11px;
+		/*service part responsive design start */
+		#sevice_part2 {
+			background-color: #fafafa;
+			padding: 50px 0;
+		}
+		#sevice_part1 {
+			padding: 50px 0;
+		}
 		
-	}
-
-
-	
-/*service hasbeen end */	
-
-.service_text p {
-	font-size: 30px;
-	padding: 0px 40px;
-	
-}
-
-.service_image {
-	position: absolute;
-	left:80%;
-	font-size: 15px;
-}
-.image_descrive p {
-	font-size: 15px;
-	
-	padding-top: 30px;
-	
-	text-align: justify;
-}
-
-
-
-
-
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-
-/*header part responsive design start */
-   .header {
-        text-align: center;
-	}
-	
-
-
-.banner_part {
-	text-align: center;
-}
-
+		
+		#sevice_part1 h2, #sevice_part2 h2 {
+			
+			font-size: 37px;
+			
+		
+		}
+		
+		#sevice_part1 p, #sevice_part2 p {
+			padding-top: 28px;
+			
+			font-size: 15px;
+		}
+		
+		/*paasurd part  responsive start */
+		#peacurd_part {
+			padding: 10px 0;
+		}
+		
+		.peacurd_icon {
+			width: 55px;
+			height: 55px;
+		
+			margin-left: 15px;
+			
+		}
+		
+		.peacurd_part_content {
+			padding: 10px 0;
+		}
+		
+		.peacurd_icon_text h3 {
+			font-size: 15px;
+			padding: 10px 0;
+		}
+		
+		.peacurd_icon_text p {
+			font-size: 10px;
+		}
+		
+		
+		/*575px part responsive design end */
 
 
 
-.banner_text ul li a {
-	color: black !important;
-	display: inline-block;
-	font-size: 30px !important;
-	padding: 30px 20px;
-}
 
 
-.service_text p {
-	font-size: 30px;
-	padding: 0px 40px;
-	
-}
-
-.service_image {
-	position: absolute;
-	left:60%;
-	font-size: 15px;
-}
-.image_descrive p {
-	font-size: 15px;
-	
-	padding-top: 30px;
-	
-	text-align: justify;
-}
 
 
 
  }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    
-/* alll content is exactaly right now */
-.header {
-	text-align: center;
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.menu{
+		text-align: right;
+		margin-top: 32px;
+		
+		}
+		.menu ul li {
+			padding: 5px;
+		}
+		
+		/*header part design start */
+		#header_part{
+		
+			height: 45vh;
+			
+		}
+		.banner_text h2 {
+			
+			font-size: 50px;
+			
+		}
+		
+		/*service part responsive design start */
+		#sevice_part2 {
+			background-color: #fafafa;
+			padding: 50px 0;
+		}
+		#sevice_part1 {
+			padding: 50px 0;
+		}
+		
+		
+		#sevice_part1 h2, #sevice_part2 h2 {
+			
+			font-size: 37px;
+			
+		
+		}
+		
+		#sevice_part1 p, #sevice_part2 p {
+			padding-top: 28px;
+			
+			font-size: 15px;
+		}
+		
+		/*paasurd part  responsive start */
+		#peacurd_part {
+			padding: 10px 0;
+		}
+		
+		.peacurd_icon {
+			width: 55px;
+			height: 55px;
+		
+			margin-left: 15px;
+			
+		}
+		
+		.peacurd_part_content {
+			padding: 10px 0;
+		}
+		
+		.peacurd_icon_text h3 {
+			font-size: 15px;
+			padding: 10px 0;
+		}
+		
+		.peacurd_icon_text p {
+			font-size: 10px;
+		}
+		
+		
+		/*576px part responsive design end */
+
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header part design */
+
+.menu{
+text-align: right;
+margin-top: 32px;
+
+}
+.menu ul li {
+	padding: 5px;
 }
 
+/*header part design start */
+#header_part{
+
+	height: 45vh;
+	
+}
+
+/*service part responsive design start */
+#sevice_part1 {
+	padding: 60px 0;
+}
+
+
+#sevice_part1 h2, #sevice_part2 h2 {
+	
+	font-size: 37px;
+	
+
+}
+
+#sevice_part1 p, #sevice_part2 p {
+	padding-top: 28px;
+	
+	font-size: 15px;
+}
+
+/*paasurd part  responsive start */
+#peacurd_part {
+	padding: 20px 0;
+}
+
+.peacurd_icon {
+	width: 55px;
+	height: 55px;
+
+	margin-left: 35px;
+	
+}
+
+.peacurd_part_content {
+	padding: 15px 0;
+}
+
+.peacurd_icon_text h3 {
+	font-size: 18px;
+	padding: 15px 0;
+	
+}
+
+.peacurd_icon_text p {
+	font-size: 15px;
+}
+
+
+
+/*768px part responsive design end */
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*header part design start */
+#header_part{
+
+	
+		height: 50vh;
+		
+
+
+}
+
+
+
+
+
+/*preasud icon part responsive */
+
+.peacurd_icon {
+	
+	margin-left: 78px;
+	
+}
 
 
 
@@ -206,10 +264,25 @@ text-align: justify;
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-    
-
 
 
 
 
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
