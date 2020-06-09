@@ -1,0 +1,218 @@
+
+body{
+
+margin: 0;
+padding: 0;
+
+
+}
+
+
+*{
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+/*header part design start */
+#header_part{
+
+background-image: url(../img/header-bg.jpg) !important;
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+padding: 20px 0 80px 0;
+
+}
+
+
+.menu ul li a{
+    font-size: 18px;
+color: #ffffff !important;
+text-transform: capitalize;
+font-weight: normal;
+
+
+}
+.menu ul li a:hover{
+    color: #ffffff !important;
+
+}
+
+
+.menu ul li{
+
+padding: 10px;
+
+}
+
+.banner_text{
+padding-top: 150px;
+
+}
+
+.banner_text h3{
+color: #ffffff;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+margin-bottom: 30px;
+font-size: 25px;
+
+
+}
+.banner_text h2{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 70px;
+
+
+}
+
+.custom-btn{
+color: #ffffff;
+border: 2px solid #ffffff;
+	padding: 17px 60px;
+	font-weight: 700;
+	font-size: 18px;
+    font-weight: bold;
+  
+    
+
+}
+
+
+.custom-btn:hover{
+
+    color: #ffffff;
+
+}
+
+/*header part design end */
+
+
+
+
+/*service part design start */
+
+#sevice_part1{
+padding: 115px 0;
+
+
+}
+
+#sevice_part1 h2,
+#sevice_part2 h2{
+
+color: #222222;
+font-size: 50px;
+margin: 0;
+text-transform: capitalize;
+
+}
+
+
+
+#sevice_part1 p,
+#sevice_part2 p{
+    padding-top: 50px;
+font-weight: 300;
+margin: 0;
+font-size: 18px;
+
+}
+
+
+
+#sevice_part2{
+
+background-color: #fafafa;
+padding: 80px 0;
+
+
+}
+
+ 
+
+/*service part design end */
+
+/*peacurd part design start */
+
+#peacurd_part{
+
+padding: 80px 0;
+
+}
+
+
+.peacurd_icon{
+
+width: 60px;
+height: 60px;
+background: black;
+border-radius: 50%;
+text-align: center;
+color: #ffffff;
+padding: 10px;
+font-size: 30px;
+margin-left: 100px;
+margin-top: 25px;
+
+}
+
+.peacurd_icon_text{
+
+
+
+}
+
+.peacurd_icon_text h3{
+font-size: 25px;
+color: #222222;
+margin: 0;
+padding: 20px 0;
+text-transform: capitalize;
+
+
+}
+
+.peacurd_icon_text p{
+
+font-size: 18px;
+
+}
+
+
+.peacurd_part_content{
+
+padding: 30px 0;
+
+}
+
+
+
+/*peacurd part design end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
