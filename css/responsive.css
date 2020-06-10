@@ -71,13 +71,84 @@
 		}
 		
 		
+
+		/*amazing part responsvi start */
+
+.testimonial_imag img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+/*testimonila part design responsive start */
+#testimoila_part {
+	padding: 50px 0;
+	
+}
+
+/*company part design responsive start */
+#comapnyPart {
+	padding: 30px 0px;
+}
+
+
+/*teampart design responsive start */
+.team-part_content {
+	padding: 30px 0;
+}
+.team_part_image img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.team_icon ul li a {
+	
+	font-size: 17px;
+	width: 25px !important;
+	height: 25px !important;
+	line-height: 25px;
+}
+
+.team-part_content {
+	padding: 30px 0;
+}
+
+.team_some_text p {
+	padding: 2px 89px;
+	font-size: 17px;
+}
+
+/*contract part start */
+#contract_part {
+	padding: 50px 0px;
+	
+}
+
+
+
+.testimonial_text h2 {
+	font-size: 45px;
+
+}
+.cont_p {
+	font-size: 11px !important;
+	
+}
+
+.contract_item p {
+	
+	font-size: 10px;
+	
+}
+
+
+.footer_text {
+	margin-top: 65px;
+	
+}
+
 		/*575px part responsive design end */
-
-
-
-
-
-
 
 
  }
@@ -153,7 +224,76 @@
 		.peacurd_icon_text p {
 			font-size: 10px;
 		}
-		
+
+/*amazing part responsvi start */
+
+.testimonial_imag img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+/*testimonila part design responsive start */
+#testimoila_part {
+	padding: 50px 0;
+	
+}
+
+/*teampart design responsive start */
+.team-part_content {
+	padding: 30px 0;
+}
+.team_part_image img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.team_icon ul li a {
+	
+	font-size: 20px;
+	width: 41px !important;
+	height: 41px !important;
+	line-height: 41px;
+}
+
+.team-part_content {
+	padding: 30px 0;
+}
+
+.team_some_text p {
+	padding: 2px 89px;
+	font-size: 17px;
+}
+
+/*contract part start */
+#contract_part {
+	padding: 50px 0px;
+	
+}
+.testimonial_text h2 {
+	font-size: 45px;
+
+}
+.cont_p {
+	font-size: 11px !important;
+	
+}
+
+.contract_item p {
+	
+	font-size: 10px;
+	
+}
+
+
+.footer_text {
+	margin-top: 65px;
+	
+}
+
+/*contract part end*/
+
 		
 		/*576px part responsive design end */
 
@@ -228,6 +368,72 @@ margin-top: 32px;
 	font-size: 15px;
 }
 
+/*amazing part responsvi start */
+
+.testimonial_imag img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+/*testimonila part design responsive start */
+#testimoila_part {
+	padding: 50px 0;
+	
+}
+
+/*teampart design responsive start */
+#team_part {
+	padding: 50px 0;
+	
+}
+.team_part_image img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.team_icon ul li a {
+	
+	font-size: 20px;
+	width: 41px !important;
+	height: 41px !important;
+	line-height: 41px;
+}
+
+.team-part_content {
+	padding: 50px 0;
+}
+
+.team_some_text p {
+	padding: 2px 89px;
+	font-size: 17px;
+}
+
+/*contract part start */
+#contract_part {
+	padding: 50px 0px;
+	
+}
+.testimonial_text h2 {
+	font-size: 45px;
+
+}
+.cont_p {
+	font-size: 11px !important;
+	
+}
+
+.contract_item p {
+	
+	font-size: 12px;
+	
+}
+
+
+
+
+/*contract part end*/
 
 
 /*768px part responsive design end */
@@ -245,6 +451,8 @@ margin-top: 32px;
 
 
 }
+
+
 
 
 

@@ -4,17 +4,13 @@ body{
 margin: 0;
 padding: 0;
 
-
 }
-
 
 *{
 
     font-family: 'Lato', sans-serif;
 
 }
-
-
 
 /*header part design start */
 #header_part{
@@ -28,8 +24,6 @@ height: 100vh;
 padding: 20px 0 80px 0;
 
 }
-
-
 .menu ul li a{
     font-size: 18px;
 color: #ffffff !important;
@@ -42,8 +36,6 @@ font-weight: normal;
     color: #ffffff !important;
 
 }
-
-
 .menu ul li{
 
 padding: 10px;
@@ -61,8 +53,6 @@ font-family: 'Lato', sans-serif;
 font-weight: 400;
 margin-bottom: 30px;
 font-size: 25px;
-
-
 }
 .banner_text h2{
     color: #ffffff;
@@ -72,8 +62,6 @@ font-size: 25px;
     font-size: 60px;
     margin: 0;
     padding-bottom: 70px;
-
-
 }
 
 .custom-btn{
@@ -83,11 +71,9 @@ border: 2px solid #ffffff;
 	font-weight: 700;
 	font-size: 18px;
     font-weight: bold;
-  
     
 
 }
-
 
 .custom-btn:hover{
 
@@ -97,15 +83,10 @@ border: 2px solid #ffffff;
 
 /*header part design end */
 
-
-
-
 /*service part design start */
 
 #sevice_part1{
 padding: 115px 0;
-
-
 }
 
 #sevice_part1 h2,
@@ -117,9 +98,6 @@ margin: 0;
 text-transform: capitalize;
 
 }
-
-
-
 #sevice_part1 p,
 #sevice_part2 p{
     padding-top: 50px;
@@ -139,8 +117,6 @@ padding: 80px 0;
 
 }
 
- 
-
 /*service part design end */
 
 /*peacurd part design start */
@@ -150,7 +126,6 @@ padding: 80px 0;
 padding: 80px 0;
 
 }
-
 
 .peacurd_icon{
 
@@ -168,8 +143,6 @@ margin-top: 25px;
 }
 
 .peacurd_icon_text{
-
-
 
 }
 
@@ -189,21 +162,244 @@ font-size: 18px;
 
 }
 
-
 .peacurd_part_content{
 
 padding: 30px 0;
 
 }
 
-
-
 /*peacurd part design end */
 
+/*this testimonial part design start*/
+#testimoila_part{
+padding: 80px 0;
+background-color: #fafafa;
 
 
+}
+.testimonial_text h2{
+font-size: 60px;
+text-transform: capitalize;
 
 
+}
+
+.testimonial_text p{
+font-size: 18px;
+font-weight: normal;
+
+
+}
+
+.testimonial_imag img{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+background: black;
+
+}
+.testi_img_text{
+background: #ffffff;
+padding: 25px 10px;
+border: 2px solid #dddddd;
+margin-top: 60px;
+
+}
+.testi_img_text p{
+padding: 0px 20px;
+margin: 0;
+
+
+}
+.blue_text{
+color: #7690c5;
+font-size: 13px;
+font-weight: normal;
+
+
+}
+
+.testi_img_text::before {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid #dddddd;
+	border-bottom: 10px solid transparent;
+	left: ;
+	left: -3px;
+	top: 45%;
+}
+
+.seciond_text{
+    background: #ffffff;
+    padding: 25px 10px;
+    border: 2px solid #dddddd;
+    margin-top: 60px;
+
+
+}
+
+.seciond_text::after{
+    position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #dddddd;
+	border-bottom: 10px solid transparent;
+	right: -5px;
+	top: 45%;
+
+}
+
+/*this testimonial part design end*/
+
+
+/*company part design start */
+
+#comapnyPart{
+
+padding: 60px 0px;
+
+}
+
+.compnay_img a img{
+
+margin-right: 40px;
+
+}
+.img-fluid{
+margin-right: 40px;
+
+}
+/*company part design end */
+
+/*teampart design start*/
+#team_part{
+
+padding: 80px 0;
+background-color: #111111;
+color: #ffffff;
+
+
+}
+.team-part_content {
+padding: 70px 0;
+
+}
+.team_part_image img{
+
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background: black;
+	border: 2px soid gray;
+
+}
+
+.team_member_name h5{
+text-align: center;
+padding-top: 20px;
+font-size: 22px;
+text-transform: capitalize;
+
+} 
+.team_member_name p{
+		text-align: center;
+		font-size: 16px;
+		font-weight: normal;
+
+}
+.team_icon{
+	text-align: center;
+	
+	color: white;
+	border: ;
+
+}
+.team_icon ul li a{
+color: white;
+font-size: 25px;
+width: 50px !important;
+height: 50px !important;
+border: 2px solid #ffffff;
+border-radius: 50%;
+display: inline-block;
+line-height: 50px;
+
+}
+
+.team_icon ul li {
+	
+	padding: 10px;
+	
+
+}
+
+
+.team_some_text p{
+padding: 0 250px;
+font-size: 18px;
+
+
+}
+
+
+/*teampart design end */
+/*contract part design start */
+#contract_part{
+padding: 80px 0px;
+background: #7690c5;
+color: #ffffff;
+
+
+}
+
+.cont_p{
+font-size: 18px !important;
+font-weight: normal;
+
+
+}
+
+.contract_item a {
+	font-size: 20px;
+	top: 5% !important;
+	color: #ffffff;
+	position: absolute;
+}
+
+.contract_item p{
+
+margin-left: 35px;
+font-size: 18px;
+text-align: justify;
+
+}
+
+.form_area{
+margin-top: 4%;
+}
+
+.name,
+.email{
+
+padding-bottom: 15px;
+
+}
+
+
+.footer_text {
+	
+	margin-top: 80px;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+/*contract part design end */
 
 
 
